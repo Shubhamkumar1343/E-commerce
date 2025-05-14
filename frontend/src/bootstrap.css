@@ -1,0 +1,233 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  /* background-color: #fffefd; */
+  background-color: #faf9f8;
+}
+
+footer {
+  /* background-color: #f5f5f5; */
+  background-color: #f0efef;
+}
+
+/* global style settings */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  /* color: #283333; */
+  color: #7c797b;
+}
+
+a:hover {
+  color: #eb609a;
+}
+
+/* banner */
+
+.perk_banner {
+  background: #f8f3ea;
+}
+
+.perk_banner > h3 {
+  color: rgb(233, 33, 33) !important;
+}
+
+.perk_banner > span {
+  color: rgb(121, 118, 118) !important;
+}
+
+.shipping_banner {
+  background: linear-gradient(to right, #f5808f, #fabb7b);
+}
+
+/* offcanvas */
+
+.offcanvas {
+  background-color: #faf9f8 !important;
+}
+
+.offcanvas-header {
+  background-color: #f8e6e2;
+}
+
+.offcanvas-body li {
+  margin-top: 1.3rem;
+}
+
+.offcanvas-body li > a {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 530px) {
+  .offcanvas {
+    width: 80%;
+  }
+}
+
+/* nav toggle bar */
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  color: #868686;
+  box-shadow: 0 0 0 0.2rem;
+}
+
+/* desktop nav hover */
+
+.hover-menu {
+  position: relative;
+}
+
+.hover-menu > ul {
+  display: none;
+  position: absolute;
+  background-color: #faf9f8;
+  top: 2.5rem;
+  left: -2rem;
+}
+
+.hover-menu:hover > ul {
+  display: inline;
+}
+
+/* brand logo */
+
+.brand_logo {
+  width: 4rem;
+  height: auto;
+}
+
+/* pointer for whatever element */
+
+.pointer {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* for styling checkout stops */
+
+.checkout-steps > div {
+  border-top: 0.2rem #c0d0d0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.checkout-steps > div.active {
+  border-top-color: #f72f28;
+  color: #f72f28;
+}
+
+@media screen and (max-width: 500px) {
+  .checkout-steps > div {
+    font-size: 0.7rem;
+  }
+}
+
+/* for styling cart icon and badge */
+
+.cart {
+  position: relative;
+  padding-top: 0.4rem;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  left: 1.3rem;
+  background-color: red;
+  border-radius: 5px;
+  width: 1.1rem;
+  height: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* carousel */
+
+.carousel-item {
+  height: 500px;
+  background: no-repeat scroll center scroll;
+  /* no-repeat scroll center scroll; */
+  /* no-repeat center center/cover; */
+  -webkit-background-size: cover;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.23;
+}
+
+.carousel-caption {
+  bottom: 30%;
+}
+
+/* showcase */
+
+.showcase-container {
+  height: 23rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px;
+}
+
+.showcase {
+  height: 100%;
+  width: 100%;
+  background: no-repeat center center/cover;
+  -webkit-background-size: cover;
+  transition: all 0.5s;
+}
+
+.showcase-container:hover .showcase {
+  transform: scale(1.1);
+}
+
+.typography {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 5%;
+  z-index: 2;
+}
+
+.showcase-container:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+  border-radius: 7px;
+}
