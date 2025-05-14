@@ -1,16 +1,13 @@
 # E-Commerce Website Using MERN Stack
 
 E-Commerce Website Using MERN Stack.\
-MERN 스택으로 구축된 이-커머스 SPA(싱글 페이지 어플리케이션) 입니다.
+MERN
 
 Front End design Using Bootstrap 5 and Custom CSS.\
-프론트엔드 디자인은 Bootstrap 5와 Custom CSS가 사용되었습니다.
 
 Front End routing using React Router Dom and http communication between front and back using REST API.\
-프론트엔드 라우팅은 React Router Dom 그리고 프론트엔드와 벡엔드의 데이터 통신 방식은 REST API를 사용하였습니다.
 
 State Management Using Redux and Redux Thunk.\
-프론트엔드의 상태 관리 매니지먼트는 Redux and Redux Thunk를 이용하였습니다.
 
 Tech Stack
 
@@ -21,10 +18,9 @@ Tech Stack
 - Mongo DB Atlas
 - Bootstrap 5
 - React Router Dom
-- JWT for Authorization (유저 인가)
+- JWT for Authorization
 
 Below is the screen Image for this project.\
-아래는 프로젝트의 간략한 이미지입니다.
 
 ## Desktop
 
@@ -66,9 +62,8 @@ Screen for desktop resolution.
 
 ## How to setup
 
-1. 루트 폴더와 frontend 폴더 각각에서 다음 명령어를 실행한다.
-   npm install
-2. 루트 폴더 밑에 .env 파일을 만들고 자신의 secret value 를 기입한다.
+1.npm install
+2.
 
 ```
 JWT_SECRET=your_secret_goes_here
@@ -76,8 +71,8 @@ PAYPAL_CLIENT_ID=your_secret_goes_here
 MONGODB_URL=your_secret_goes_here
 ```
 
-3. 루트폴더에서 npm start로 node js 서버를 구동한다. (localhost:5000)
-4. frontend 폴더로 가서 npm start로 react js 서버를 구동한다. (localhost:3000)
+3.(localhost:5000)
+4. frontend npm start react js. (localhost:3000)
 
 ## Demo
 
