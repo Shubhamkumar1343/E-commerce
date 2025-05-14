@@ -74,9 +74,7 @@ MONGODB_URL=your_secret_goes_here
 3.(localhost:5000)
 4. frontend npm start react js. (localhost:3000)
 
-## Demo
 
-Link : https://whispering-cove-62911.herokuapp.com/
 
 # Getting Started with Create React App
 
