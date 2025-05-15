@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/logo.png"
 
 function Footer() {
   return (
@@ -11,7 +12,7 @@ function Footer() {
                 <li className="">
                   <img
                     className="brand_logo"
-                    src="/images/h&m_logo.png"
+                    src={logo}
                     alt=""
                   />
                 </li>

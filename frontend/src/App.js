@@ -21,6 +21,7 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Classification from "./screens/Classification";
 import Footer from "./components/Footer";
 import FavoritesScreen from "./screens/FavoritesScreen";
+import logo from "../src/images/logo.png"
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -46,7 +47,7 @@ function App() {
         <div className="container">
           {/* nav brand */}
           <Link className="navbar-brand order-2 order-lg-1 me-auto" to="/">
-            <img className="brand_logo" src="/images/h&m_logo.png" alt="" />
+            <img className="brand_logo" src={logo} alt="" />
           </Link>
           {/* nav mobile toggle btn */}
           <button
