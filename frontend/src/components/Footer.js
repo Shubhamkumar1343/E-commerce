@@ -52,7 +52,7 @@ function Footer() {
           </div>
           <div className="row text-secondary" style={{ fontSize: 13 }}>
             <div className="col">
-              <p>A Part of Hearst Digital Media</p>
+              <p>A Part of SSS Friendship Group</p>
               <p>
                 Urban Attire participates in various affiliate marketing programs, which
                 means we may get paid commissions on editorially chosen products
