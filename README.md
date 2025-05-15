@@ -28,37 +28,19 @@ Screen for desktop resolution.
 
 ### `Home`
 
-![Alt text](/frontend/public/images/example_desktop_0.png)
+![Alt text](/frontend/public/images/desktop_0.png)
 
 ### `women shop section`
 
-![Alt text](/frontend/public/images/example_desktop_3.png)
+![Alt text](/frontend/public/images/desktop_3.png)
 
 ### `Product`
 
-![Alt text](/frontend/public/images/example_desktop_1.png)
+![Alt text](/frontend/public/images/desktop_1.png)
 
 ### `User List`
 
-![Alt text](/frontend/public/images/example_desktop_2.png)
-
-## Mobile (Resolution for iPhone X)
-
-### `Home`
-
-![Alt text](/frontend/public/images/example_mobile_0.png)
-
-### `Product & Half of Footer`
-
-![Alt text](/frontend/public/images/example_mobile_1.png)
-
-### `women shop section & category overflow scroll`
-
-![Alt text](/frontend/public/images/example_mobile_2.png)
-
-### `mobile sidebar`
-
-![Alt text](/frontend/public/images/example_mobile_3.png)
+![Alt text](/frontend/public/images/desktop_4.png)
 
 ## How to setup
 
