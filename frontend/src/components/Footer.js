@@ -21,8 +21,8 @@ function Footer() {
             <div className="col">
               <ul>
                 <h6>Corporate Info</h6>
-                <li className="text-secondary">Career at H&M</li>
-                <li className="text-secondary">About H&M group</li>
+                <li className="text-secondary">Career at Urban Attire</li>
+                <li className="text-secondary">About Urban Attire group</li>
                 <li className="text-secondary">sustainability</li>
                 <li className="text-secondary">Press</li>
                 <li className="text-secondary">Investor Relations</li>
@@ -54,11 +54,11 @@ function Footer() {
             <div className="col">
               <p>A Part of Hearst Digital Media</p>
               <p>
-                H&M participates in various affiliate marketing programs, which
+                Urban Attire participates in various affiliate marketing programs, which
                 means we may get paid commissions on editorially chosen products
                 purchased through our links to retailer sites.
               </p>
-              <p>©2021 H&M, Inc. All Rights Reserved.</p>
+              <p>©2021 Urban Attire, Inc. All Rights Reserved.</p>
             </div>
           </div>
         </div>

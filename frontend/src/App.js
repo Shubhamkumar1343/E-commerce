@@ -47,7 +47,7 @@ function App() {
         <div className="container">
           {/* nav brand */}
           <Link className="navbar-brand order-2 order-lg-1 me-auto" to="/">
-            <img className="brand_logo" src={logo} alt="" />
+            <img className="brand_logo" src={logo} alt="" style={{height: "60px", width: "60px"}}/>
           </Link>
           {/* nav mobile toggle btn */}
           <button
